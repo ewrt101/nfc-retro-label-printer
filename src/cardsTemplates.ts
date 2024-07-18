@@ -5,7 +5,6 @@ import tapToBgV from './assets/tapto_pattern_bg_vertical.svg';
 import tapToHu from './assets/tapto_hucard.svg';
 import tapToHuBg from './assets/tapto_hucard_bg.svg';
 import tapToHuPC from './assets/tapto_hucard_pro.svg';
-import tapToHuBgPC from './assets/tapto_hucard_bg.svg';
 import tapToHuC64 from './assets/tapto_hucard_c64.svg';
 import tapToGB from './assets/tapto_gameboy_f.svg';
 import emptyVertical from './assets/empty_vertical.svg';
@@ -171,13 +170,6 @@ export const templates: Record<string, templateType> = {
       //x: 37 / 619,
       y: 125 / 994,
       x: 22 / 619,
-      isSvg: true,
-    },
-    //shadow: '0px 10px 20px rgba(0, 0, 0, 0.3)',
-    background: {
-      layerWidth: 619,
-      layerHeight: 994,
-      url: tapToHuBgPC,
       isSvg: true,
     },
     label: 'HuCardPC',
