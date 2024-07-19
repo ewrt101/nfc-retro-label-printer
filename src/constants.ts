@@ -1,7 +1,7 @@
 // those should be changed in accordance with LabelEditor.css
 export const cardLikeOptions = {
-  width: 1004, // 3.346inch * 300dpi (85mm)
-  height: 638, // 2.126inch * 300dpi, (54mm)
+  width: 994, // 3.346inch * 300dpi (85mm) //1004
+  height: 619, // 2.126inch * 300dpi, (54mm) //638
   rx: 35,
   ry: 35,
   strokeWidth: 2,
